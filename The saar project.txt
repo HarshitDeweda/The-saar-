@@ -1,0 +1,62 @@
+
+import os
+print("\t\t\t...Hello Friends ")
+whlie True:
+      print("\n.....session summary....")
+      print(""" 
+              \n option 1  : session 1   summary
+                 option 2  : session 2   summary
+                 option 3  : session 3   summary  
+                 option 4  : session 4   summary
+                 option 5  : session 5   summary
+                 option 6  : session 6   summary
+                 option 7  : session 7   summary
+                 option 8  : session 8   summary
+                 option 9  : session 9   summary
+                 option 10 : session 10  summary
+                 option 11 : session 11  summary
+                 option 12 : session 12  summary
+                 option 13 : session 13  summary
+                 option 14 : exit
+            """)
+       user_input = int(input("plese choice your option"))
+       if user_input==1:
+            print("Mutipal tachnology.") 
+       elif user_input==2:
+            print(" 1. download virtula box
+                    2. set lenux os
+                    3. link ios file") 
+       elif user_input==3:
+            print("git and github ") 
+       elif user_input==4:
+            print(" Linux commands EX:- echo,firefox etc. and create command") 
+       elif user_input==5:
+            print("Github & Some linux Command") 
+       elif user_input==6:
+            print(" program and process") 
+       elif user_input==7:
+            print("Periper a one task and represent your task") 
+       elif user_input==8:
+            print("play a game ") 
+       elif user_input==9:
+            print("what is acloud \nTypes cloud \ncloud services\naws cloud \ncreate aws cloud account") 
+       elif user_input==10:
+            print("1. Grow your networks (Twitter & LinkedIn)
+                   2. Why we need OS ?
+                   3. How to launch our own OS on AWS cloud and we need only 7 steps.
+                   4. Some Linux commands. ") 
+       elif user_input==11:
+            print("what is a protocols 
+                   Need of protocols 
+                   types of protocols : SSH ,RDP and ICMP and about Port numbers.
+                   Downloading putty and puttygen.") 
+       elif user_input==12 :
+            print("In This session learn Create a project in python how to automate run linux command in this project ") 
+       elif user_input==13 :
+            print(" What is a server \n types of server ,client \nwhat is a web server \n needs of web server") 
+       elif user_input==14:
+            exit = os.system("exit")  
+            print(exit)  
+            break;
+       else : 
+             print("your option is a wrong please a valid option") 
